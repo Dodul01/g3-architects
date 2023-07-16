@@ -133,7 +133,7 @@ nav ul li a:hover {
 
 .team-title {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 3rem;
 }
 
 .typograph-1 {
@@ -147,3 +147,75 @@ nav ul li a:hover {
 }
 
 /**Team Section CSS end here**/
+
+/**Features Section CSS start from here**/
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-main-title {
+  border-left: 5px solid #FF900E;
+  padding: 0px 15px;
+  font-size: 2rem;
+}
+
+.features-card {
+  max-width: 586px;
+  height: 171px;
+  padding: 2rem;
+  margin: 10px 0px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-title {
+  font-size: 1.2rem;
+}
+
+.feature-desc {
+  font-size: 1rem;
+}
+
+/**Features Section CSS end here**/
+
+/**Responsive CSS start from here**/
+
+@media screen and (max-width: 576px) {
+
+  .team-section {
+    flex-direction: column-reverse;
+    margin: 5px;
+    padding: 0;
+  }
+
+  .team-images-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-title {
+    font-size: 35px;
+  }
+  .features-section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .architect-image-container img{
+    width: 93%;
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+  .features-section{
+    flex-direction: column-reverse;
+  }
+  .architect-image-container img{
+    width: 94%;
+    margin: 1rem;
+  }
+}
+/**Responsive CSS end here**/
