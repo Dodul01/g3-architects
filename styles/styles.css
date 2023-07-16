@@ -20,7 +20,7 @@
 .section-desc {
   color: #727272;
   font-family: Work Sans;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 400;
   margin: 10px;
 }
@@ -90,22 +90,60 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
-.banner-info{
+.banner-info {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-.banner-title{
+.banner-title {
   font-size: 3rem;
 }
-.banner-image-container{
+
+.banner-image-container {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
-.banner-image-container img{
-  width:90%;
+.banner-image-container img {
+  width: 90%;
 }
 
 /**Banner Section CSS end here**/
+
+/**Team Section CSS start here**/
+.team-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.team-images-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team-images-container img {
+  width: 250px;
+  height: auto;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.typograph-1 {
+  color: #727272;
+  font-weight: 500;
+}
+
+.orenge-txt {
+  color: #FF900E;
+  font-weight: 700;
+}
+
+/**Team Section CSS end here**/
